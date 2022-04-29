@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <link rel="shortcut icon" href=".\img\Icono.ico">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href=".\index.html">Clima</a></li>
+                <li><a href=".\add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Ayuda Clima App v.1.0</h2>
+            <p>
+                Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a href="https://openweathermap.org/api" target =" blank">OpenWeatherMap</a>
+            </p>
+            <p>
+                Para poder consultar el clima, primero deberá <a href=".\add-city.html">Agregar una ciudad</a> y luego seleccionar la ciudad en cuestion desde la pagina <a href=".\index.html">Clima</a>
+            </p>
+        <section id="inputs-form">
+            <form action="#">
+                <div>
+                    <label for="nombreform">Nombre:</label>
+                    <input type="text" name="nombreform" id="nombreform">
+                </div>
+                <div>
+                    <label for="emailform">E-mail:</label>
+                    <input type="email" name="emailform" id="emailform" required>
+                </div>
+                <div>
+                    Mensaje: <textarea name="mensajeform" cols="19" rows="7" placeholder="Escriba aqui su mensaje:"></textarea>
+                </div>
+                <div>
+                    <input type="reset" Value="Limpiar">
+                    <input type="submit" Value="Enviar">                
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desarrollado con ♥ - LC2
+        </p>
+    </footer>
+</body>
+
+</html>
