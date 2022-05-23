@@ -1,0 +1,30 @@
+main section form button {
+    background: var(--color-theme);
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 75%;
+    border: 0;
+    padding: 11px;
+    font-weight: bold;
+}
+
+main section form select {
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.section-weather-result {
+    display: flex;
+}
+
+.card {
+    margin: 40px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 3px 20px 3px;
+    box-shadow: #a5a2a2;
+}
