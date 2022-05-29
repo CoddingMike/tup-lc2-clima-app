@@ -34,10 +34,10 @@
             Para poder consultar el clima, primero deberá <a href="./add-city.html">Agregar una ciudad</a> y luego seleccionar la ciudad en cuestion desde la pagina <a href=".\index.html">Clima</a>
         </p>
         <section id="inputs-form">
-            <form action="#">
+            <form class="form-help" action="#">
                 <div class="form-help-container">
                     <label for="nombre-form">Nombre:</label>
-                    <input class="text-box-common" type="text" name="nombre-form" id="nombre-form">
+                    <input class="text-box-common" type="text" name="nombre-form" id="nombre-form" required>
                 </div>
                 <div class="form-help-container">
                     <label for="email-form">E-mail:</label>
@@ -45,11 +45,14 @@
                 </div>
                 <div class="form-help-container">
                     <label for="mensaje-form">Mensaje:</label>
-                    <textarea class="text-box-common" id="mensajeform" name="mensajeform" cols="19" rows="7" placeholder="Escriba aqui su mensaje:"></textarea>
+                    <textarea class="text-box-common" id="message-box-form" name="mensajeform" cols="19" rows="7" placeholder="Escriba aqui su mensaje:" required></textarea>
                 </div>
                 <div class="form-help-buttons">
-                    <input class="common-button" type="reset" Value="Limpiar">
-                    <input class="common-button" type="submit" Value="Enviar">
+                    <input class="common-button" type="reset" Value="Limpiar" id="clean-form-help">
+                    <input class="common-button" type="submit" Value="Enviar" id="sent-form-help">
+                </div>
+                <div class="form-help-buttons">
+                    <label class="invalid-email" for="error-mensaje-form">Ingrese un Email válido:</label>
                 </div>
             </form>
         </section>

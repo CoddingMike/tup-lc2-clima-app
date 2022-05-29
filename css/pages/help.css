@@ -1,11 +1,40 @@
+.form-help {
+    width: 300px;
+}
+
 .form-help-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .form-help-buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: space;
-    margin: 10px 0px;
+}
+
+#message-box-form {
+    resize: none;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+#clean-form-help {
+    margin: 0px 3px 0px 0px;
+}
+
+#sent-form-help {
+    margin: 0px 0px 0px 3px;
+}
+
+.invalid-email {
+    width: 600px;
+    background-color: var(--color-error);
+    color: white;
+    margin: 40px 15px 15px 15px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 70%;
 }
