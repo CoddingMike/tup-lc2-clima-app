@@ -13,7 +13,7 @@ main section form div ul li {
     align-items: center;
 }
 
-.contenedor-lista-errores {
+.error-list-container {
     margin: 30px 0px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -25,19 +25,19 @@ main section form div ul li {
     margin: 8px 0px 8px 0px;
 }
 
-.lista-errores {
+.error-list {
     text-align: center;
-    font-size: 85%;
+    font-size: 0.80rem;
 }
 
-#lista-1 {
+#list-1 {
     background-color: var(--color-sucess);
 }
 
-#lista-2 {
+#list-2 {
     background-color: var(--color-error)
 }
 
-#lista-3 {
+#list-3 {
     background-color: var(--color-warning)
 }

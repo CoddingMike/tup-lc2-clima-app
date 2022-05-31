@@ -6,12 +6,12 @@ main section div p {
     display: flex;
 }
 
-#elegir_ciudad {
+#choose-city {
     padding: 8px 25px 8px 8px;
 }
 
 .card {
-    font-size: 80%;
+    font-size: 0.80rem;
     margin: 40px;
     padding: 0px 15px;
     border-radius: 30px;
